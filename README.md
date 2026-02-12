@@ -1,6 +1,12 @@
 # Blog
 
+[![GitHub Pages](https://img.shields.io/badge/Website-GitHub%20Pages-blue?style=flat-square&logo=github)](https://scotlandorange.github.io/Blog/)
+
 记录技术开发文档
+
+## 📖 网站访问
+
+**在线访问**: [https://scotlandorange.github.io/Blog/](https://scotlandorange.github.io/Blog/)
 
 ## 简介
 
@@ -51,7 +57,7 @@ sphinx-build -b html docs/source docs/build/html
 
 本项目使用 GitHub Actions 自动构建和部署：
 
-- **触发条件**: 当代码推送到 `main` 分支时
+- **触发条件**: 当代码推送到 `master` 分支时
 - **构建**: 自动使用 Sphinx 构建 HTML 文档
 - **部署**: 自动部署到 GitHub Pages
 
