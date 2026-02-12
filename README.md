@@ -8,6 +8,10 @@
 
 **在线访问**: [https://scotlandorange.github.io/Blog/](https://scotlandorange.github.io/Blog/)
 
+> ⚠️ **重要提示**: 如果网站显示 "There isn't a GitHub Pages site here"，请按照 [GitHub Pages 设置指南](./SETUP_GITHUB_PAGES.md) 启用 GitHub Pages。
+>
+> ⚠️ **Important**: If the site shows "There isn't a GitHub Pages site here", please follow the [GitHub Pages Setup Guide](./SETUP_GITHUB_PAGES.md) to enable GitHub Pages.
+
 ## 简介
 
 这是一个基于 Sphinx 的技术博客，用于记录和分享技术开发文档。文档会自动构建并部署到 GitHub Pages。
@@ -61,9 +65,15 @@ sphinx-build -b html docs/source docs/build/html
 - **构建**: 自动使用 Sphinx 构建 HTML 文档
 - **部署**: 自动部署到 GitHub Pages
 
-要启用 GitHub Pages:
-1. 进入仓库的 Settings -> Pages
-2. 在 "Source" 部分选择 "GitHub Actions"
+### 首次设置 GitHub Pages
+
+**必须完成以下步骤才能使网站正常访问:**
+
+1. 进入仓库的 Settings → Pages: https://github.com/ScotlandOrange/Blog/settings/pages
+2. 在 "Source" 部分选择 **"GitHub Actions"**
+3. 保存设置后，手动触发一次工作流或推送到 master 分支
+
+详细说明请参考：[GitHub Pages 设置指南](./SETUP_GITHUB_PAGES.md)
 
 ## 许可证
 
