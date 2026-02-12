@@ -1,6 +1,12 @@
 # Blog
 
+[![GitHub Pages](https://img.shields.io/badge/Website-GitHub%20Pages-blue?style=flat-square&logo=github)](https://scotlandorange.github.io/Blog/)
+
 记录技术开发文档
+
+## 📖 网站访问
+
+**在线访问**: [https://scotlandorange.github.io/Blog/](https://scotlandorange.github.io/Blog/)
 
 ## 简介
 
